@@ -1,1 +1,71 @@
-node_modules
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# build / output
+dist/
+build/
+out/
+.next/
+.public/
+.vite/
+.parcel-cache/
+.cache/
+coverage/
+coverage-final.json
+.nyc_output/
+
+# env / secrets
+.env
+.env.local
+.env.*.local
+.env.test
+.env.production.local
+secrets.*.json
+
+# editors / OS
+.vscode/
+*.code-workspace
+.idea/
+*.sublime-workspace
+*.sublime-project
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# logs
+logs/
+*.log
+
+# test / debug
+jest.config.*.cache
+*.test.tsbuildinfo
+*.tsbuildinfo
+
+# tooling
+.eslintcache
+.next/
+.tmp/
+.cache/
+parcel-bundler-cache/
+.cache-loader
+
+# optional platform / deploy
+.vercel/
+.netlify/
+firebase-debug.log
+firebase/
+functions/.runtimeconfig.json
+
+# IDE / project files
+*.iml
+*.class
+
+# local artifacts
+*.local
+local-*.json
+
+# keep lockfiles tracked (do not ignore package-lock.json / yarn.lock / pnpm-lock.yaml)
